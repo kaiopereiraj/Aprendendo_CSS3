@@ -9,7 +9,6 @@
 .container {
     background-color: #bbb;
     height: 500px;
-    width: 400px;
     padding: 10px;
     display: flex;
     flex-direction: row;
@@ -25,31 +24,40 @@
 
 div {
     height: 150px;
-    width: 150px;
+    width: 150px; 
     border-radius: 8px;
     padding: 5px;
+    font: normal 2em monospace;
 }
 
 .bloco1 {
     background-color: darksalmon;
     order: 0; /* pode ser usado também valores negativos*/
     flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto; 
+    align-self: flex-start;
+    /* 
+    shorthand = flex: (valores do flex-grow flex-shrink e flex-basis) exemplo... 
+    flex: 0 1 auto;
+    */
 }
 
 .bloco2 {
     background-color: lightskyblue;
     order: 0;
-    flex-grow: 0;
+    flex-grow: 2;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: center;
 }
 
 .bloco3 {
     background-color: goldenrod;
     order: 0;
     flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: auto;
+    align-self: flex-end;
 }
 
-.bloco4 {
-    background-color: lightcyan;
-    order: 0;
-    flex-grow: 0;
-}

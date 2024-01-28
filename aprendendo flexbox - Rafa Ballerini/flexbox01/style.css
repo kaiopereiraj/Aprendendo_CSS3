@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #bbb;
+    height: 500px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    /* shorthand = flex-flow: propriedades para flex-direction e flex-wrap*/
+    align-content: center;
+    row-gap: 10px;
+    column-gap: 30px; 
+    /* shorthand = gap: (define valor para row-gap e column-gap;*/
+}
+
+div {
+    height: 60px;
+    width: 60px;
+    border-radius: 8px;
+    padding: 5px;
+}
+
+.bloco1 {
+    background-color: darksalmon;
+}
+
+.bloco2 {
+    background-color: lightskyblue;
+}
+
+.bloco3 {
+    background-color: goldenrod;
+}
+
+.bloco4 {
+    background-color: lightcyan;
+}

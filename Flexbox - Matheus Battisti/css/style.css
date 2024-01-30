@@ -31,9 +31,6 @@ body {
     background-color: #bbb;
     border: 2px solid #0000ff;
     height: 50px;
-    flex-basis: 100px;
-    flex-grow: 1;
-    flex-shrink: 1;
 
     /* shorthand para item
     flex-grow: 1;

@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font: normal 1em arial;
+    margin-top: 20px;
+}
+
+.logo {
+    font: bold 25px arial;
+}
+
+.nav-itens {
+    list-style: none;
+    display: flex;
+
+}
+
+.nav-itens > li > a {
+    padding-left: 20px;
+    color: #202020;
+    text-decoration: none;
+}
+
+.login {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font: normal 1em arial;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.cadastro {
+    background-color: #000;
+    color: #fff;
+    opacity: 0.7;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font: normal 1em arial;
+    cursor: pointer;
+    transition: .7s;
+}
+
+.cadastro:hover {
+    opacity: 1;
+}

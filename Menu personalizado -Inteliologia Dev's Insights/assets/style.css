@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+:root {
+    --font-padrao:  "Titillium Web", sans-serif;
+}
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: var(--font-padrao);
+}
+
+header {
+    background-color: #000;
+    width: 100%;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1080px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+.logo, .sociais {
+    width: 25%;
+}
+
+.logo img {
+    width: 140px;
+}
+
+.menu {
+    width: 50%;
+}
+
+.menu nav a {
+    color: #fff;
+    text-decoration: none;
+    padding-right: 50px;
+    font-size: 1.2em;
+    opacity: 0.8;
+    position: relative;
+}
+
+.menu nav a::after {
+    content: "";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, red, orange);
+    position: absolute;
+    top: 30px;
+    left: 0;
+    transition: width .6s;
+}
+
+.menu nav a:hover {
+    opacity: 1;
+}
+
+.menu nav a:hover::after {
+    width: 30px;
+}
+
+.sociais button {
+    width: 40px;
+    height: 40px;
+    background-image: linear-gradient(45deg, #ff0000, #ffa500);
+    border: none;
+    border-radius: 8px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.sociais button i {
+    font-size: 30px;
+}
+
+.sociais button i:hover {
+    color: #fff;
+    transition: .5s;
+}

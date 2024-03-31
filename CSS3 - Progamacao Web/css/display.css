@@ -2,29 +2,12 @@
     border: 1px solid #ff0000;
 }
 
-.azul {
-    background-color: #0000ff;
+.ex1 {
+    border: 2px solid #0000ff;
+    max-width: 800px;
 }
 
-.vermelho {
-    background-color: #ff0000;
-}
-
-.roxo {
-    background-color: #800080;
-}
-
-div {
-    display: inline-block;
-    width: 30%;
-    height: 150px;
-}
-
-a {
-    display: block;
-    border: 1px solid #ff0000;
-    padding-inline-start: 20px;
-    text-align: center;
-    width: 50%;
-    height: 50px;
+.ex2 {
+    border: 2px solid #800080;
+    max-width: 800px;
 }

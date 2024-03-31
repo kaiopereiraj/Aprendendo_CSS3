@@ -1,0 +1,134 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Workbench&display=swap');
+
+
+body {
+    background-color: #fff;
+}
+
+h1 {
+    font-family: "Workbench", sans-serif;
+    font-size: 4em;
+    color: #fff;
+    border: 3px solid #000;
+    border-radius: 50px;
+    text-align: center;
+    background-color: #ff0000;
+    margin: 20px 40px 50px;
+    padding: 30px 20px;
+}
+
+p {
+    color: #000;
+    margin-bottom: 20px;
+    text-align: justify;
+    text-transform: uppercase;
+    text-indent: 30px;
+    line-height: 1.4;
+    word-spacing: 3px;
+    letter-spacing: 3px;
+    font-family: "Dancing Script", cursive;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.pdiv{
+    color: #fff;
+}
+
+/* .back {
+    height: 100px;
+
+    SHORTHAND 
+
+    background: #aaa url(../images/img-pattern.jpg) no-repeat center center;
+    background-size: cover;
+
+    
+    background-color: #aaa;
+    background-image: url('../images/img-pattern.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center; 
+    
+    margin-bottom: 100px;
+} */
+
+.btn {
+    margin-left: 20%;
+    background-color: #00008b;
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background-color: #0000ff;
+}
+
+/* Outra.html */
+
+.teste{
+    background-color: bisque;
+    max-width: 300px;
+    height: 150px;
+}
+
+a {
+    line-height: 100px;
+}
+
+.botao1 {
+    background-color: #003674;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    border: 5px solid #ff0000;
+    border-radius: 6px;
+}
+
+.botao1:hover {
+    background-color: #0000ff;
+    border: 5px solid #ca9400;
+    padding: 12px;
+}
+
+.botao2 {
+    text-decoration: none;
+    padding: 10px;
+    border: 6px double #0000ff;
+    color: #0000ff;
+}
+
+.botao2:hover {
+    background-color: #0000ff;
+    color: #fff;
+    text-decoration: underline;
+    padding: 8px;
+}
+
+.botao3 {
+    color: #000;
+    text-decoration: none;
+}
+
+.botao3:hover {
+    color: #ff0000;
+    border: 3px solid #000;
+}
+
+.botao4 {
+    text-decoration: none;
+    color: #0000ff;
+    font-size: 18px;
+}
+
+.botao4:hover {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.botao5{
+    cursor: pointer;
+}
